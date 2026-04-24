@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LayerForge 3D Printing</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#111;
+color:white;
+}
+
+header{
+background:#000;
+padding:20px;
+text-align:center;
+font-size:32px;
+font-weight:bold;
+letter-spacing:2px;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:20px;
+background:#222;
+padding:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#00d9ff;
+}
+
+.hero{
+height:90vh;
+background:url('https://images.unsplash.com/photo-1581091215367-59ab6dcef10f?auto=format&fit=crop&w=1400&q=80') center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:55px;
+background:rgba(0,0,0,0.6);
+padding:20px;
+border-radius:10px;
+}
+
+.section{
+padding:60px 20px;
+text-align:center;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding-top:30px;
+}
+
+.card{
+background:#222;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 0 15px rgba(0,0,0,0.5);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+}
+
+footer{
+background:#000;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
+</style>
+</head>
+<body>
+
+<header>LayerForge 3D Printing</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#prints">Prints</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+<h1>Custom 3D Prints Made Fast & Clean</h1>
+</section>
+
+<section class="section" id="prints">
+<h2>Popular Prints</h2>
+
+<div class="gallery">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1612810806563-4cb8265db55f?auto=format&fit=crop&w=800&q=80">
+<h3>Dragon Statue</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1581092160607-ee22731d8b88?auto=format&fit=crop&w=800&q=80">
+<h3>Gaming Headphone Stand</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1581092919535-7146ff1a5902?auto=format&fit=crop&w=800&q=80">
+<h3>Phone Holder</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1581091215367-59ab6dcef10f?auto=format&fit=crop&w=800&q=80">
+<h3>Custom Figures</h3>
+</div>
+
+</div>
+</section>
+
+<section class="section" id="about">
+<h2>About Us</h2>
+<p>We create high-quality 3D prints including dragons, home items, gaming accessories, and custom requests.</p>
+</section>
+
+<section class="section" id="contact">
+<h2>Contact</h2>
+<p>Email: layerforge3d@gmail.com</p>
+<p>Instagram: @LayerForge3D</p>
+</section>
+
+<footer>
+© 2026 LayerForge 3D Printing
+</footer>
+
+</body>
+</html>
